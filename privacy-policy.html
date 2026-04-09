@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>隱私權政策 — 永動創意工作室</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;600;700&family=DM+Sans:wght@400;500;600&display=swap');
+
+  :root {
+    --bg: #0a0a0c;
+    --surface: #141418;
+    --border: #2a2a32;
+    --text: #e8e6e3;
+    --text-dim: #8a8a96;
+    --accent: #c8a864;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Noto Sans TC', 'DM Sans', sans-serif;
+    background: var(--bg); color: var(--text);
+    min-height: 100vh; display: flex; flex-direction: column; align-items: center;
+  }
+
+  .noise {
+    position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: 0.03;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  main {
+    position: relative; z-index: 1;
+    max-width: 720px; width: 100%; padding: 80px 24px;
+  }
+
+  .back { 
+    display: inline-block; color: var(--text-dim); text-decoration: none;
+    font-size: 14px; margin-bottom: 48px; border-bottom: 1px solid var(--border);
+    padding-bottom: 2px; transition: color 0.2s, border-color 0.2s;
+  }
+  .back:hover { color: var(--accent); border-color: var(--accent); }
+
+  h1 {
+    font-size: clamp(28px, 5vw, 40px); font-weight: 700;
+    line-height: 1.3; margin-bottom: 8px;
+  }
+
+  .updated {
+    font-size: 14px; color: var(--text-dim); margin-bottom: 40px;
+  }
+
+  .divider {
+    width: 48px; height: 2px; background: var(--accent); margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 18px; font-weight: 600; margin: 36px 0 12px; color: var(--text);
+  }
+
+  p, li {
+    font-size: 15px; line-height: 1.9; color: var(--text-dim); margin-bottom: 12px;
+  }
+
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 6px; }
+
+  .contact-box {
+    margin-top: 40px; padding: 20px 24px;
+    border: 1px solid var(--border); border-radius: 8px; background: var(--surface);
+  }
+  .contact-box p { margin-bottom: 4px; }
+  .contact-box a { color: var(--accent); text-decoration: none; }
+
+  footer {
+    position: relative; z-index: 1;
+    padding: 32px 24px; text-align: center;
+    font-size: 13px; color: var(--text-dim);
+    border-top: 1px solid var(--border); width: 100%; max-width: 720px;
+    margin-top: auto;
+  }
+</style>
+</head>
+<body>
+<div class="noise"></div>
+<main>
+  <a class="back" href="index.html">← 返回首頁</a>
+  <h1>隱私權政策</h1>
+  <p class="updated">最後更新日期：2026 年 4 月 9 日</p>
+  <div class="divider"></div>
+
+  <p>永動創意工作室（以下簡稱「本工作室」）非常重視您的隱私。本政策適用於本工作室開發與發布的所有行動應用程式（以下簡稱「本應用程式」），包括但不限於：拍拍背、台北市立圖書館借閱助手、QR Code 工具、國字部首快查。</p>
+
+  <h2>一、資料蒐集</h2>
+  <p>本應用程式可能蒐集以下類型的資料：</p>
+  <ul>
+    <li><strong>裝置資訊：</strong>作業系統版本、裝置型號等，用於改善應用程式相容性。</li>
+    <li><strong>使用資料：</strong>應用程式內的操作記錄（如功能使用頻率），用於改善使用體驗。</li>
+    <li><strong>相機與相簿存取：</strong>部分應用程式需使用相機或相簿以提供核心功能（如拍照辨識、QR Code 掃描），僅在您授權後使用，影像資料不會上傳至外部伺服器。</li>
+  </ul>
+  <p>本應用程式<strong>不會</strong>蒐集您的姓名、電子郵件、電話號碼或其他個人身分識別資訊，除非您主動提供。</p>
+
+  <h2>二、資料使用</h2>
+  <p>所蒐集之資料僅用於以下目的：</p>
+  <ul>
+    <li>提供、維護及改善應用程式功能</li>
+    <li>分析使用趨勢以優化使用者體驗</li>
+    <li>偵測與修正技術問題</li>
+  </ul>
+
+  <h2>三、第三方服務</h2>
+  <p>本應用程式可能整合以下第三方服務，這些服務有各自的隱私權政策：</p>
+  <ul>
+    <li><strong>Google AdMob：</strong>用於顯示廣告，可能蒐集廣告識別碼及使用資料。詳情請參閱 <a href="https://policies.google.com/privacy" style="color:var(--accent)">Google 隱私權政策</a>。</li>
+    <li><strong>Google Analytics for Firebase：</strong>用於分析應用程式使用情形。</li>
+  </ul>
+
+  <h2>四、資料儲存與安全</h2>
+  <p>本應用程式產生的使用者資料優先儲存於您的裝置本機。本工作室採取合理的技術措施保護資料安全，但無法保證網際網路傳輸的絕對安全性。</p>
+
+  <h2>五、兒童隱私</h2>
+  <p>本應用程式不針對 13 歲以下兒童設計。本工作室不會故意蒐集 13 歲以下兒童的個人資料。若您發現有兒童提供了個人資料，請與我們聯絡，我們將立即刪除。</p>
+
+  <h2>六、您的權利</h2>
+  <p>您可以隨時：</p>
+  <ul>
+    <li>透過裝置設定撤銷應用程式的權限（如相機、相簿）</li>
+    <li>移除應用程式以刪除本機儲存的所有資料</li>
+    <li>聯絡本工作室要求刪除任何與您相關的資料</li>
+  </ul>
+
+  <h2>七、政策變更</h2>
+  <p>本工作室保留隨時修訂本政策之權利。修訂後的政策將公布於本頁面，並更新「最後更新日期」。建議您定期查閱本政策。</p>
+
+  <div class="contact-box">
+    <p style="font-weight:600; color:var(--text); margin-bottom:8px;">聯絡我們</p>
+    <p>永動創意工作室</p>
+    <p>統一編號：61249892</p>
+    <p>電子郵件：<a href="mailto:perpetualmotion.studio@gmail.com">perpetualmotion.studio@gmail.com</a></p>
+  </div>
+</main>
+<footer>
+  © 2026 永動創意工作室 Perpetual Motion Creative Studio
+</footer>
+</body>
+</html>
